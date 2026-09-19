@@ -79,7 +79,7 @@ This remains an academic prototype. Login credential checking and role-dependent
 
 ## Source code
 
-[Download the complete sanitised source ZIP](oceansense-source.zip). Extract it to browse the `front-end` and `back-end` folders.
+Browse the [React / TypeScript frontend](front-end) and [Java / Spring Boot backend](back-end) directly in this repository. See [SETUP.md](SETUP.md) for local setup instructions.
 
 ## About this repository
 

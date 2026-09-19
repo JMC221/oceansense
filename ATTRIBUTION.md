@@ -11,4 +11,4 @@ OceanSense was developed by Brunel group A21, Start-up 1, in 2025/26.
 
 The case study describes Joan's contribution; the source snapshot includes the team's integrated work. The supplied GNU GPL v3 licence is retained in LICENSE.
 
-Public-copy changes on 19 September 2026: database credentials replaced with environment variables; private environment files excluded; personal tunnel host replaced with optional environment configuration; broken seed-user insert removed because it omitted the required password; setup and portfolio documentation added. Application functionality otherwise retains the academic prototype implementation. No original Git history is included.
+Public-copy changes on 19 September 2026: database credentials replaced with environment variables; private environment files excluded; personal tunnel host replaced with optional environment configuration; broken seed-user insert removed because it omitted the required password; setup and portfolio documentation added. Application functionality otherwise retains the academic prototype implementation. No original group-repository Git history is included. The public portfolio history is retained.

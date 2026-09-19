@@ -1,0 +1,56 @@
+/* src/components/AccountForm.css */
+
+
+
+
+.modal-box input {
+  width: 100%;
+  padding: 11px 13px;
+  border-radius: 7px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.modal-box select {
+  width: 100%;
+  padding: 11px 13px;
+  border-radius: 7px;
+  font-size: 14px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.actions button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  transition: all 0.2s;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.actions button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.cancel {
+  background: #ef4444;
+  color: white;
+}
+
+.actions button:not(.cancel) { 
+  background: #1e88e5;
+  color: white;
+}

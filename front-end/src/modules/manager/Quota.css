@@ -1,0 +1,160 @@
+.quota-main {
+    padding: 32px;
+    background: #f8fafc;
+    min-height: 100vh;
+}
+
+.quota-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.quota-header h1 {
+    font-size: 2.5rem;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.quota-header p {
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+.add-btn {
+    margin-top: 16px;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+}
+
+/* New inline form (appears on demand) */
+.quota-inline-form {
+    background: white;
+    border: 3px solid #588cac;
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.quota-inline-form h3 {
+    margin: 0 0 20px 0;
+    color: #1e40af;
+}
+
+.inline-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.inline-fields select,
+.inline-fields input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #94a3b8;
+    font-size: 1rem;
+}
+
+.inline-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.button-cancel {
+    background: #6b7280;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-cancel:hover {
+    background: #4b5563;
+}
+
+/* Cards Grid */
+.quotas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.quota-item-card {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    border: 2px solid #588cac;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.quota-item-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.12);
+}
+
+.quota-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.quota-item-header h4 {
+    margin: 0;
+    color: #1e293b;
+    font-size: 1.3rem;
+}
+
+.quota-details p {
+    margin: 8px 0;
+    color: #475569;
+}
+
+.weight-highlight {
+    font-weight: 700;
+    color: #dc2626;
+    font-size: 1.2rem;
+}
+
+.quota-item-actions {
+    margin-top: 16px;
+    display: flex;
+    gap: 10px;
+}
+
+/* Badges */
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.badge-daily { background: #3b82f6; }
+.badge-weekly { background: #10b981; }
+
+.empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px;
+    color: #64748b;
+    font-size: 1.2rem;
+}
+
+/* Original buttons */
+.button-primary, .button-edit, .button-delete {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.2s;
+}
+
+.button-primary { background: #007aff; color: white; }
+.button-edit { background: #3b82f6; color: white; }
+.button-delete { background: #ef4444; color: white; }

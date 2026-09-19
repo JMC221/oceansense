@@ -1,0 +1,120 @@
+.captain-quota-main {
+    padding: 32px;
+    background: #f8fafc;
+    min-height: 100vh;
+}
+
+.captain-quota-header {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.captain-quota-header h1 {
+    font-size: 2.5rem;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.captain-quota-header p {
+    color: #64748b;
+    font-size: 1.1rem;
+}
+
+/* Cards Grid */
+.quotas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.quota-item-card {
+    background: white;
+    border-radius: 14px;
+    padding: 20px;
+    border: 2px solid #588cac;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s;
+}
+
+.quota-item-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 20px rgba(0,0,0,0.12);
+}
+
+.quota-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.quota-item-header h4 {
+    margin: 0;
+    color: #1e293b;
+    font-size: 1.3rem;
+}
+
+.quota-details p {
+    margin: 8px 0;
+    color: #475569;
+}
+
+.weight-highlight {
+    font-weight: 700;
+    color: #dc2626;
+    font-size: 1.2rem;
+}
+
+/* Badges */
+.badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.badge-daily { background: #3b82f6; }
+.badge-weekly { background: #10b981; }
+
+.empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px;
+    color: #64748b;
+    font-size: 1.2rem;
+}
+
+
+/* Quota Status */
+.quota-status {
+    margin-top: 16px;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-align: center;
+    border-left: 4px solid;
+    border-right: 4px solid;
+}
+
+.status-on_track {
+    background: #ecfdf5;
+    color: #065f46;
+    border-left-color: #10b981;
+    border-right-color: #10b981;
+}
+
+.status-warning {
+    background: #fffbeb;
+    color: #92400e;
+    border-left-color: #f59e0b;
+    border-right-color: #f59e0b;
+}
+
+.status-exceeded {
+    background: #fef2f2;
+    color: #7f1d1d;
+    border-left-color: #dc2626;
+    border-right-color: #dc2626;
+}
