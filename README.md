@@ -77,6 +77,10 @@ This remains an academic prototype. Login credential checking and role-dependent
 - Experience taking a feature from requirements and interface design through database modelling, API development and integration.
 - Practice explaining technical decisions, coordinating work, resolving integration problems and supporting teammates throughout delivery.
 
+## Source code
+
+[Download the complete sanitised source ZIP](oceansense-source.zip). Extract it to browse the `front-end` and `back-end` folders.
+
 ## About this repository
 
-This is a portfolio case study with selected screenshots. The original university group repository remains private; shared source code, credentials and individual assessment reports are not included here.
+This repository contains a sanitised source snapshot of our university group project alongside my personal contribution case study. The original group repository remains private. Credentials, local environment files, Git history and assessment reports are excluded. See [SETUP.md](SETUP.md) to run a local copy and [ATTRIBUTION.md](ATTRIBUTION.md) for team credits and publication changes.
